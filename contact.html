@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BotWeb - Contact Us</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">BotWeb</a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+        <button class="get-started" onclick="window.location.href=\'contact.html\'">Get Started</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <section class="content-section">
+      <div class="container">
+        <h1>Contact Us</h1>
+        <p>We\'re here to help you amplify your mission. Let\'s connect!</p>
+      </div>
+    </section>
+
+    <section class="content-section alt-background">
+      <div class="container">
+        <div class="form-section">
+          <p class="callback-note">Leave your details, and we\'ll get back to you ASAP!</p>
+          <form action="https://formspree.io/f/meokqqro" method="POST" class="contact-form">
+            <div class="form-group">
+              <label for="callback-name">Name</label>
+              <input type="text" id="callback-name" name="callback-name" required>
+            </div>
+            <div class="form-group">
+              <label for="callback-email">Email</label>
+              <input type="email" id="callback-email" name="_replyto" required>
+            </div>
+            <div class="form-group">
+              <label for="callback-phone">Phone</label>
+              <input type="tel" id="callback-phone" name="callback-phone" required>
+            </div>
+            <button type="submit" class="get-started">Submit Details</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>BotWeb</h3>
+          <p>We Build Websites. You Build Impact.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook">📘</a>
+            <a href="#" aria-label="Twitter">🐦</a>
+            <a href="#" aria-label="LinkedIn">💼</a>
+            <a href="#" aria-label="Instagram">📷</a>
+          </div>
+        </div>
+        <div class="footer-section">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="services.html">Website Design</a></li>
+            <li><a href="services.html">AI Chatbots</a></li>
+            <li><a href="services.html">Hosting & Maintenance</a></li>
+            <li><a href="services.html">Digital Strategy</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#privacy">Privacy Policy</a></li>
+            <li><a href="#terms">Terms of Service</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Contact Info</h4>
+          <p>📧 hello@botweb.com</p>
+          <p>📞 +1 (555) 123-4567</p>
+          <p>📍 San Francisco, CA</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 BotWeb. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
+
